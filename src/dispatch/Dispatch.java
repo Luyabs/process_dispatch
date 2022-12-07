@@ -9,6 +9,7 @@ abstract public class Dispatch {
 
     public Dispatch(PCB[] processes) {
         this.processes = processes;
+        System.out.println("HelloWorld");
     }
 
     protected boolean runProcess(PCB process) {    //运行直到时间片完 or 进程完成
